@@ -85,8 +85,8 @@ export default function Chat() {
           {isEmpty && !loading && (
             <section className="pb-4">
               <h2 className="text-5xl font-bold tracking-tight">
-                AI research,{" "}
-                <span className="text-gradient-brand">done right.</span>
+                Welcome to research Agent{" "}
+                <span className="text-gradient-brand"></span>
               </h2>
               <p className="mt-5 max-w-2xl text-lg leading-8 text-muted-foreground">
                 Search the web, analyze trusted sources, summarize long articles
