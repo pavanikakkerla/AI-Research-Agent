@@ -10,9 +10,7 @@ import { useEffect, useRef, useState } from "react";
 import ChatInput from "./ChatInput";
 import Message, { type ChatMessage } from "./Message";
 
-const API_URL =
-  process.env.NEXT_PUBLIC_RESEARCH_API_URL ??
-  "http://127.0.0.1:8000";
+cconst API_URL = "https://ai-research-agent-production-cf09.up.railway.app";
 // Next.js equivalent: process.env.NEXT_PUBLIC_RESEARCH_API_URL ?? "http://127.0.0.1:8000"
 
 const SUGGESTIONS = [
